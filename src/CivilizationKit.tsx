@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, Download, Search, Archive, Scale, FileCheck2, Upload } from "lucide-react";
+import { ArrowLeft, Download, Archive, Scale, FileCheck2, Upload } from "lucide-react";
+import "./CivilizationKit.css";
 
 const API="http://localhost:3001/api";
 type Dispute={id:string;title:string;description:string;status:string;created_at:string;updated_at:string};
